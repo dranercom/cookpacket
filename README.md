@@ -16,6 +16,9 @@ FEATURES OF COOKPACKET
 CONTACT US
 -----------
 Website : www.cookpacket.com
+----------------------------
 E-mail  : cookpacket@gmail.com
-twitter : www.twitter.com/cookpacket
+------------------------------
+Twitter : www.twitter.com/cookpacket
+------------------------------------
 Oops! I will update this session once the site is up and running.
