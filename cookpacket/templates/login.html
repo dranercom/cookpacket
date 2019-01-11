@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <body class="sidebar-collapse">
-    <nav class="navbar navbar-transparent fixed-top navbar-expand-lg"
+    <nav class="navbar bg-success fixed-top navbar-expand-lg"
     color-on-scroll="100"
     id="selectionNav"
     style="position:absolute">
@@ -35,7 +35,7 @@
                 </ul>
                 <form class="form-inline ml-auto">
                         <div class="form-group no-border">
-                          <input type="text" class="form-control" placeholder="Search">
+                          <input type="text" class="input100" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-white btn-just-icon btn-round">
                             <i class="material-icons">search</i>
@@ -44,7 +44,51 @@
             </div>
         </div>
     </nav>
-    <div class="page-header header-filter" 
+    </br>
+    <div class="container-login100">
+        <div class="wrap-login100">
+            <form class="login100-form p-l-55 p-r-55 p-t-178">
+                
+                <span class="login100-form-title">
+                    Sign In
+                </span>
+
+                <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter username">
+                    <input class="input100" type="text" name="username" placeholder="Username">
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16" data-validate="Please enter password">
+                    <input class="input100" type="password" name="password" placeholder="Password">
+                </div>
+
+                <div class="text-right p-t-13 p-b-23">
+                    <span class="txt1">
+                        Forgot
+                    </span>
+
+                    <a href="#" class="txt2">
+                        Username / Password?
+                    </a>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn">
+                        Sign in
+                    </button>
+                </div>
+
+                <div class="flex-col-c p-t-50 p-b-40">
+                    <span class="txt1 p-b-9">
+                        Don’t have an account?
+                    </span>
+                    <a href="#" class="txt3">
+                        Sign up now
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="page-header header-filter" 
     data-parallax="true" 
     style="background-image: url('static/images/background.jpg')">
         <div class="container">
@@ -59,7 +103,7 @@
                         <i class="fa fa-chevron-circle-down" style="padding-right: 8px;"></i>LEARN MORE
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
   {% include "common_js.html" %}
